@@ -1,0 +1,3 @@
+padding a 9000 (padding zero, padding predittivo, padding fondo sin, cos o altro)  vs ignorare minori di 9000
+augmentation ripetendo segnali classi meno rappresentate vs altro
+performance con solo due classi vs 4 classi
