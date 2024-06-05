@@ -2,9 +2,11 @@
 -baseline wandering removal (mi sembra di capire sia tipo rimozione di un segnale di fondo lineare) 
 
 
-######### DATASET SBILANCIATO ##############
+######### DATA AUGMENTATION ##############
 
 -oversampling  (ripetizione, taglia e ricuci casuali, altre tecniche di immagini)
+
+-ripetizione con sign flipping: (nella challenge è menzionato che alcuni segnali hanno le polarità invertite e quindi "sono al contrario". Possiamo sfruttare questa info per generare nuovi sample invertendo il segno di quelli già esistenti)
 
 -oversampling: SLIDING WINDOW (quando facciamo la segmentazione, i segnali più lunghi possiamo splittarli in più pezzi "immaginando di avere una sliding window che può fare overlap. per le label meno rappresentate possiamo fare una sliding window che "scorre più lentamente" cioè con meno stride )
 
