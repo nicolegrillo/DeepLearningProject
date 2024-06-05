@@ -1,12 +1,24 @@
-DATASET SBILANCIATO:
--oversampling (unbalanced learn SMOTE, copia naive, taglia e ricuci casuali, altre tecniche di immagini)
+######### preprocessing ########### 
+-baseline wandering removal (mi sembra di capire sia tipo rimozione di un segnale di fondo lineare) 
+
+
+######### DATASET SBILANCIATO ##############
+
+-oversampling  (ripetizione, taglia e ricuci casuali, altre tecniche di immagini)
+
+-oversampling: SLIDING WINDOW (quando facciamo la segmentazione, i segnali più lunghi possiamo splittarli in più pezzi "immaginando di avere una sliding window che può fare overlap. per le label meno rappresentate possiamo fare una sliding window che "scorre più lentamente" cioè con meno stride )
+
 ----SMOTE (GIOVANNI)
+
 -loss pesata
+
 -altri database (DAVE)
 
+######## ARCHITETTURE #######
 CONV 1D   (GIOVANNI)
+RNN
 
 
-
+POSSIBILI OBSOLETE:
 performance con solo due classi vs 4 classi
 padding a 9000 (padding zero, padding predittivo, padding fondo sin, cos o altro)  vs ignorare minori di 9000
