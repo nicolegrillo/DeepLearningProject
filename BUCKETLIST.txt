@@ -1,3 +1,6 @@
 padding a 9000 (padding zero, padding predittivo, padding fondo sin, cos o altro)  vs ignorare minori di 9000
-augmentation ripetendo segnali classi meno rappresentate vs altro
+DATASET SBILANCIATO:
+-oversampling (unbalanced learn SMOTE, copia naive, taglia e ricuci casuali, altre tecniche di immagini, )
+-loss pesata
+
 performance con solo due classi vs 4 classi
