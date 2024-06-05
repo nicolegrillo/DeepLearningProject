@@ -1,9 +1,10 @@
 DATASET SBILANCIATO:
 -oversampling (unbalanced learn SMOTE, copia naive, taglia e ricuci casuali, altre tecniche di immagini)
+----SMOTE (GIOVANNI)
 -loss pesata
 -altri database (DAVE)
 
-CONV 1D
+CONV 1D   (GIOVANNI)
 
 
 
