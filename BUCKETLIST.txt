@@ -12,6 +12,8 @@
 
 ----SMOTE (GIOVANNI)
 
+-classe noise + random noise
+
 -loss pesata
 
 -altri database (DAVE)
