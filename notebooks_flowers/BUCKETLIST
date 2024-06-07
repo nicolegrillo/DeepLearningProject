@@ -1,0 +1,27 @@
+# Ideas on stuff to do
+
+## Data Augmentation and Preprocessing
+
+1) Implement Data Augmentation:
+
+Use the tf.keras.preprocessing.image.ImageDataGenerator for real-time data augmentation.
+Experiment with various augmentation techniques like zoom, shift, shear, and contrast adjustments.
+Analyze the Impact of Data Augmentation:
+
+2) Train the model with and without data augmentation.
+Compare the performance in terms of accuracy, loss, and other metrics.
+
+
+## Model Interpretability and Visualization
+
+1) Use Grad-CAM for Visualization:
+
+Implement Grad-CAM to visualize the regions of the image that the model focuses on for making predictions.
+
+2) Create Saliency Maps:
+
+Implement saliency maps to highlight important pixels for classification.
+
+3) Analyze Misclassified Examples:
+
+Generate confusion matrices to identify and analyze misclassified examples.
