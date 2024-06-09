@@ -1,3 +1,14 @@
+# To Do due Tuesday (max Wednesday morning)
+
+1) Aggiungere plots GRADCam di Dave ai results; 
+
+2) Vedere se si può fare finetuning per epoche più lunghe di 5 tenendo i parameters come li ho messi nel notebook o se ce la giochiamo su quel 60%.
+
+3) Check presentazione finale
+
+
+-------------------------------------------------------------------------------------------------------------
+
 # Ideas on stuff to do
 
 ## Data Augmentation and Preprocessing
